@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include src/YoungLion/terminal *
+recursive-exclude __pycache__ *

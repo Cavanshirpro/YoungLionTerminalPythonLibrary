@@ -1,0 +1,33 @@
+[project]
+name = "YoungLion-terminal"
+version = "0.1"
+authors = [
+  { name="Cavanşir Qurbanzadə", email="cavanshirpro@gmail.com" },
+]
+description = "Functions for terminal colors and other features"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["YoungLion", "Young Lion", "Cavanshirpro"]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+  "YoungLion"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+include-package-data = true
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
