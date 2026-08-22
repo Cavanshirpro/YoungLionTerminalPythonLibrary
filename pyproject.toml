@@ -1,0 +1,52 @@
+[project]
+name = "YoungLion-terminal"
+version = "0.2"
+authors = [{ name = "Cavanşir Qurbanzadə", email = "cavanshirpro@gmail.com" }]
+maintainers = [{ name = "Cavanşir Qurbanzadə", email = "cavanshirpro@gmail.com" }]
+description = "Functions for terminal colors and other features"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["YoungLion", "Young Lion", "Cavanshirpro",'terminal','younglion-terminal','color','loader','loading','Spinner']
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+  "YoungLion"
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Programming Language :: C++",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: System :: Filesystems",
+  "Topic :: Text Processing :: Indexing",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+] 
+
+[project.urls]
+Homepage = "https://github.com/Cavanshirpro/YoungLionTerminalPythonLibrary"
+Repository = "https://github.com/Cavanshirpro/YoungLionTerminalPythonLibrary.git"
+Issues = "https://github.com/Cavanshirpro/YoungLionTerminalPythonLibrary/issues"
+"Source Code" = "https://github.com/Cavanshirpro/YoungLionTerminalPythonLibrary"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+include-package-data = true
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
